@@ -24,7 +24,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
-          jupyter lite build
+          jupyter lite build --settings-overrides=jupyterlite_config.json
       - name: Upload (dist)
         uses: actions/upload-artifact@v2
         with:
