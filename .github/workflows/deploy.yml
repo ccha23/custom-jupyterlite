@@ -24,7 +24,7 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
-          jupyter lite build --contents content --XeusPythonEnv.packages=numpy,matplotlib,pandas,divewidgets
+          jupyter lite build --contents content --XeusPythonEnv.packages=numpy,matplotlib,pandas,piplite,bdb
       - name: Upload (dist)
         uses: actions/upload-artifact@v2
         with:
