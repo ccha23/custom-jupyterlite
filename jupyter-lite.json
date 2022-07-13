@@ -43,6 +43,13 @@
       {
         "extension": "./extension",
         "liteExtension": true,
+        "load": "static/remoteEntry.fd96a7785895390646ce.js",
+        "name": "@jupyterlite/xeus-python-kernel",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": true,
         "load": "static/remoteEntry.960d5d0f875a651e597f.js",
         "name": "@jupyterlite/xeus-sqlite-kernel",
         "style": "./style"
@@ -108,6 +115,13 @@
         "liteExtension": false,
         "load": "static/remoteEntry.8f896d6ad92823566c46.js",
         "name": "jupyterlab-drawio",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.389b243688c5e1fbf672.js",
+        "name": "jupyterlab-filesystem-access",
         "style": "./style"
       },
       {
