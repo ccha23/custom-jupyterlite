@@ -94,6 +94,12 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.a94ce70f234d6fa5b6ba.js",
+        "name": "jupyter-divewidgets"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.87c5f425be4cc49a1717.js",
         "name": "jupyter-leaflet"
       },
